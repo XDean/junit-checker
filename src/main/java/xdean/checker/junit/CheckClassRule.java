@@ -15,10 +15,10 @@ import xdean.deannotation.checker.CheckType.Type;
 @MetaFor(ClassRule.class)
 @CheckField(
     modifier = @CheckModifier(require = { PUBLIC, STATIC }),
-    type = @CheckType(value = TestRule.class, type = Type.EXTEND))
+    type = @CheckType(value = TestRule.class, type = Type.EXTEND_ALL))
 @CheckMethod(
     modifier = @CheckModifier(require = { PUBLIC, STATIC }),
-    returnType = @CheckType(value = TestRule.class, type = Type.EXTEND),
+    returnType = @CheckType(value = TestRule.class, type = Type.EXTEND_ALL),
     argCount = 0)
 @interface CheckClassRule {
 
