@@ -25,6 +25,7 @@ Depends on `junit-checker` in your project.
   <groupId>com.github.XDean</groupId>
   <artifactId>junit-checker</artifactId>
   <version>0.1.0-SNAPSHOT</version>
+  <scope>test</scope>
 </dependency>
 ```
 
